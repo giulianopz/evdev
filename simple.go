@@ -71,8 +71,6 @@ func Find(devtype int) (list []*Device, err error) {
 			list = append(list, dev)
 		}
 	}
-
-	return
 }
 
 // IsKeyboard returns true if the given device qualifies as a keyboard.

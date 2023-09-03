@@ -71,15 +71,15 @@ func (d *Device) Release() bool {
 // It returns true only if the bitset defines all the supplied types.
 // E.g.: To test for certain event types:
 //
-//     if dev.Test(dev.EventTypes(), EvKey, EvRepeat) {
+//	if dev.Test(dev.EventTypes(), EvKey, EvRepeat) {
 //
 // To test for certain absolute axes:
 //
-//     if dev.Test(dev.AbsoluteAxes(), AbsX, AbsY, AbsZ) {
+//	if dev.Test(dev.AbsoluteAxes(), AbsX, AbsY, AbsZ) {
 //
 // To test for certain relative axes:
 //
-//     if dev.Test(dev.RelativeAxes(), RelX, RelY, RelZ) {
+//	if dev.Test(dev.RelativeAxes(), RelX, RelY, RelZ) {
 func (d *Device) Test(set Bitset, values ...int) bool {
 	var count int
 
@@ -105,7 +105,7 @@ func (d *Device) Name() string {
 // Path returns the physical path of the device.
 // For example:
 //
-//    usb-00:01.2-2.1/input0
+//	usb-00:01.2-2.1/input0
 //
 // To understand what this string is showing, you need
 // to break it down into parts. `usb` means this is

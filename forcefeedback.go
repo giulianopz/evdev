@@ -59,22 +59,22 @@ Effect describes any of the supported Force Feedback effects.
 
 Supported effects are as follows:
 
-	- FFConstant        Renders constant force effects
-	- FFPeriodic        Renders periodic effects with the following waveforms:
-	  - FFSquare        Square waveform
-	  - FFTriangle      Triangle waveform
-	  - FFSine          Sine waveform
-	  - FFSawUp         Sawtooth up waveform
-	  - FFSawDown       Sawtooth down waveform
-	  - FFCustom        Custom waveform
-	- FFRamp            Renders ramp effects
-	- FFSpring          Simulates the presence of a spring
-	- FFFriction        Simulates friction
-	- FFDamper          Simulates damper effects
-	- FFRumble          Rumble effects
-	- FFInertia         Simulates inertia
-	- FFGain            Gain is adjustable
-	- FFAutoCenter      Autocenter is adjustable
+  - FFConstant        Renders constant force effects
+  - FFPeriodic        Renders periodic effects with the following waveforms:
+  - FFSquare        Square waveform
+  - FFTriangle      Triangle waveform
+  - FFSine          Sine waveform
+  - FFSawUp         Sawtooth up waveform
+  - FFSawDown       Sawtooth down waveform
+  - FFCustom        Custom waveform
+  - FFRamp            Renders ramp effects
+  - FFSpring          Simulates the presence of a spring
+  - FFFriction        Simulates friction
+  - FFDamper          Simulates damper effects
+  - FFRumble          Rumble effects
+  - FFInertia         Simulates inertia
+  - FFGain            Gain is adjustable
+  - FFAutoCenter      Autocenter is adjustable
 
 Note: In most cases you should use FFPeriodic instead of FFRumble. All
 devices that support FFRumble support FFPeriodic (square, triangle,
@@ -98,12 +98,12 @@ type Effect struct {
 // Data returns the event data structure as a concrete type.
 // Its type depends on the value of Effect.Type and can be any of:
 //
-//    FFConstant -> ConstantEffect
-//    FFPeriodic -> PeriodicEffect
-//    FFRamp     -> RampEffect
-//    FFRumble   -> RumbleEffect
-//    FFSpring   -> [2]ConditionEffect
-//    FFDamper   -> [2]ConditionEffect
+//	FFConstant -> ConstantEffect
+//	FFPeriodic -> PeriodicEffect
+//	FFRamp     -> RampEffect
+//	FFRumble   -> RumbleEffect
+//	FFSpring   -> [2]ConditionEffect
+//	FFDamper   -> [2]ConditionEffect
 //
 // This returns nil if the type was not recognized.
 func (e *Effect) Data() interface{} {
