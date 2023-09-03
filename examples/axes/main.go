@@ -6,8 +6,9 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/jteeuwen/evdev"
 	"os"
+
+	"github.com/giulianopz/evdev"
 )
 
 func main() {

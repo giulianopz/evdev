@@ -6,9 +6,10 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/jteeuwen/evdev"
 	"os"
 	"time"
+
+	"github.com/giulianopz/evdev"
 )
 
 func main() {

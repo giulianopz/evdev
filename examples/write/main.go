@@ -6,10 +6,11 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/jteeuwen/evdev"
 	"os"
 	"os/signal"
 	"time"
+
+	"github.com/giulianopz/evdev"
 )
 
 const Timeout = 200 * time.Millisecond

@@ -5,9 +5,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/jteeuwen/evdev"
 	"os"
 	"os/signal"
+
+	"github.com/giulianopz/evdev"
 )
 
 var (

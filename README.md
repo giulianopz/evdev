@@ -73,7 +73,7 @@ crw-r----- 1 root root  13, 32 Sep  7 18:10 mouse0
 
 ### Usage
 ```bash
-go get github.com/jteeuwen/evdev
+go get github.com/giulianopz/evdev
 ```
 
 ### References
