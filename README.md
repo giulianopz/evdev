@@ -108,3 +108,6 @@ these changes take effect.
 Unless otherwise stated, all of the work in this project is subject to a
 1-clause BSD license. Its contents can be found in the enclosed LICENSE file.
 
+### Credits
+
+This is a fork of the `github.com/jteeuwen/evdev` before its author, Jim Teeuwen, deleted his GitHub account and completely disappeared from the internet leaving no traces behind (though, his original GitHub account is still visible through the [Wayback Machine](https://web.archive.org/web/20150609210529/https://github.com/jteeuwen)). The case sparked serious [concerns](https://donatstudios.com/GithubsTotalSecurityFacepalm) with respect to GitHub security vulnerabilities since his account was then resurrected by an unknown user who was in desperate need of the most popular Jim's repo, `github.com/jteeuwen/go-bindata`, as explained in this [issue](https://github.com/jteeuwen/go-bindata/issues/5).
